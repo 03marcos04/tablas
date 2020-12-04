@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- meta importante para ios para el notch -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tablas de multiplicar</title>
+
+    <meta name="author" content="Marco Antonio Villanueva Guzmán">
+    <meta name="description" content="Mis primeras paginas web">
+    <meta name="keywords" content="Marcos Villanueva, Marco A. Villanueva, 03marcos04">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/pwa.css">
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Android -->
+    <meta name="theme-color" content="#A18148">
+
+    <!-- IOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+
+    <link rel="apple-touch-icon" href="img/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/icons/icon-152x152.png">
+
+    <!-- iPhone X (1125px x 2436px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="img/icons-ios/apple-launch-1125x2436.png">
+    <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-750x1334.png">
+    <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)" href="img/icons-ios/apple-launch-1242x2208.png">
+    <!-- iPhone 5 (640px x 1136px) -->
+    <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="img/icons-ios/apple-launch-640x1136.png">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="apple-mobile-web-app-title" content="Tablas">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="d-none d-sm-block col-sm-6 col-md-3 col-lg-3 order-sm-2 order-md-1 text-center">
+                <img src="img/logo.png" id="logo_gallo">
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-6 text-center order-sm-1 order-md-2">
+                <h1 id="titulo">Tablas de multiplicar</h1>
+            </div>
+            <div class="d-none d-sm-block col-sm-6 col-md-4 col-lg-3 redes-sociales text-center order-sm-3 order-md-3">
+                <a href="#" class="icono icon-twitter twitter"></a>
+                <a href="#" class="icono icon-instagram instagram"></a>
+                <a href="https://www.facebook.com/marco.villanueva04" target="_blank" class="icono icon-facebook facebook"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <br>
+                <h2>Selecciona la tabla que deseas imprimir</h2>
+                <br>
+            </div>
+        </div>
+        <div class="text-center">
+            <form action="" id="SelecTabla">
+                <select id="tablacalcular">
+                    <option value="1">1</option>  
+                    <option value="2">2</option>  
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <input class="btn btn-primary" type="submit" value="Calcular">
+            </form>
+        </div>
+        <div class="row">
+            <div class="col table-responsive text-center" id="resultado">
+
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/pwa.js"></script>
+</body>
+
+</html>

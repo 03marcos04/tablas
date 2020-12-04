@@ -1,0 +1,71 @@
+#logo_gallo {
+    width: 100px;
+}
+
+#titulo {
+    margin: 15px 0;
+}
+
+body {
+    background-color: #E192CB;
+}
+
+hr {
+    border: 1px pointer black;
+}
+
+#tablacalcular {
+    border: 1px solid black;
+}
+
+.redes-sociales .icono {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    background-color: #cbcbcb;
+    display: inline-block;
+    margin: 20px 5px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s ease;
+}
+
+.redes-sociales .twitter {
+    background-color: #1da1f2;
+}
+
+.redes-sociales .instagram {
+    background-color: #a33ab4;
+}
+
+.redes-sociales .facebook {
+    background-color: #3b5998;
+}
+
+.redes-sociales .twitter:hover {
+    background-color: rgba(29, 161, 242, 0.64)
+}
+
+.redes-sociales .instagram:hover {
+    background-color: rgba(163, 58, 180, 0.47)
+}
+
+.redes-sociales .facebook:hover {
+    background-color: rgba(31, 95, 223, 0.49)
+}
+
+select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 50px;
+}
+
+.tablacalcular {
+    border: 1px solid black;
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 0px auto;
+    /* centrar un bloque */
+}
+
+html,
+body {
+    margin: 0px !important;
+    color: #333;
+    font-size: 16px;
+    background-color: #E192CB;
+    width: 100%;
+    /* para que en android no pueda hacer el refesh de chrome */
+    overscroll-behavior-y: contain;
+    overflow-x: hidden;
+    /* para que el usuario no pueda seleccionar texto */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
